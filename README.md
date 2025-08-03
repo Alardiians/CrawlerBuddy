@@ -4,18 +4,26 @@ This is a domain-restricted, robots.txt-respecting asynchronous web crawler writ
 
 Step 1: Install Dependencies
 On Debian-based systems (Parrot, Kali, Ubuntu, etc.), run:
+
 sudo apt update
+
 sudo apt install python3-aiohttp
 
 Alternatively, for isolated use or on other systems, create a virtual environment:
+
 python3 -m venv venv
+
 source venv/bin/activate
+
 pip install aiohttp
 
 Step 2: Save the Crawler Script
 Save the provided code to a file called:
+
 async_crawler.py
+
 Make it executable if you want:
+
 chmod +x async_crawler.py
 
 Step 3: Run the Crawler
